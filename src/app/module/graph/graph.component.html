@@ -1,0 +1,111 @@
+<nav class="navbar navbar-expand-sm bg-light">
+    <img scr="assets/images/giphy-2.gif" width=200/>
+    <img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width=250/>
+    <img scr="./assets/images/tenor.gif" width=200/>
+</nav>
+<div class="jumbotron">
+    <h2>World</h2>
+    <div class="row col-md-12">
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Confirmed </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-primary" >
+                {{worldData != '' ? worldData?.data_eng[1].Confirmed : 0}}
+            </p>    
+            </div>
+        </div>
+
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Active </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-warning">
+                {{worldData != '' ? worldData?.data_eng[1].Active : 0}}
+            </p>    
+            </div>
+        </div>
+
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Deaths </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-danger">
+                {{worldData != '' ? worldData?.data_eng[1].Deaths : 0}}
+            </p>    
+            </div>
+        </div>
+
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Recovered </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-success">
+                {{worldData != '' ? worldData?.data_eng[1].Recovered : 0}}
+            </p>    
+            </div>
+        </div>
+    </div>
+</div>
+<marquee>Stay Home Be Safe</marquee>
+<div class="jumbotron">
+    <h2>India</h2>
+    <div class="row col-md-12">
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Confirmed </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-primary" >
+                {{worldData != '' ? worldData?.data_eng[0].Confirmed : 0}}
+            </p>    
+            </div>
+        </div>
+
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Active </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-warning">
+                {{worldData != '' ? worldData?.data_eng[0].Active : 0}}
+            </p>    
+            </div>
+        </div>
+
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Deaths </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-danger">
+                {{worldData != '' ? worldData?.data_eng[0].Deaths : 0}}
+            </p>    
+            </div>
+        </div>
+
+        <div class="card text-center col-md-2">
+            <div class="card-header">
+                <strong> Recovered </strong>
+            </div>
+            <div class="card-block">
+            <h4 class="card-title"></h4>
+            <p class="card-text text-success">
+                {{worldData != '' ? worldData?.data_eng[0].Recovered : 0}}
+            </p>    
+            </div>
+        </div>
+    </div>
+</div>
+
