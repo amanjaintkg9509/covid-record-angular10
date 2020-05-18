@@ -23,6 +23,7 @@
     "@angular/router": "~10.0.0-next.4",
     "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",
+    "highcharts": "^8.1.0",
     "primeflex": "^1.0.0",
     "primeng": "^9.0.6",
     "rxjs": "~6.5.4",
